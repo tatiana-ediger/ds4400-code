@@ -1,0 +1,21 @@
+HW3 README:
+
+The packages/imports used are:
+    - import numpy as np
+    - from sklearn.linear_model import LogisticRegression
+    - import matplotlib.pyplot as plt
+    - from scipy.io import loadmat
+    - from sklearn.svm import LinearSVC
+
+There are two python files included in my submission: logistic-regression.py and svm.py
+
+The first file, logistic-regression, is my implementation of of Logistic Regression. In part a, I define a function that produces the w
+and b values of the hyperplane that separates the data. In part b, I apply this function to the training and testing
+datasets and find the classification errors for both. I also graphed all the data points as well as the line separating
+the data. These graphs are the only two attachments generated from this code.
+
+The first file, svm, is my implementation of of SVM. In part a, I define a function that produces the w and b values of
+the hyperplane that separates the data, as well as generating the classification of the training and testing data.
+In part b, I apply this function to the training and testing datasets and find the classification errors for both.
+I also graphed all the data points as well as the line separating the data. These graphs are the only two attachments
+generated from this code.
